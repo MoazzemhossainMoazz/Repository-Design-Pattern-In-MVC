@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RepoDesignPetternC22.props" />
+</Project>
