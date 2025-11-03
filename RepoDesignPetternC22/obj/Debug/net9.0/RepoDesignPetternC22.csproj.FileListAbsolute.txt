@@ -338,3 +338,4 @@ D:\PowerSoftIT\Practice\RepoDesignPettern\RepoDesignPetternC22\RepoDesignPettern
 D:\PowerSoftIT\Practice\RepoDesignPettern\RepoDesignPetternC22\RepoDesignPetternC22\obj\Debug\net9.0\RepoDesignPetternC22.pdb
 D:\PowerSoftIT\Practice\RepoDesignPettern\RepoDesignPetternC22\RepoDesignPetternC22\obj\Debug\net9.0\RepoDesignPetternC22.genruntimeconfig.cache
 D:\PowerSoftIT\Practice\RepoDesignPettern\RepoDesignPetternC22\RepoDesignPetternC22\obj\Debug\net9.0\ref\RepoDesignPetternC22.dll
+D:\PowerSoftIT\Practice\RepoDesignPettern\RepoDesignPetternC22\RepoDesignPetternC22\obj\Debug\net9.0\RepoDesignPetternC22.sourcelink.json

@@ -29,13 +29,13 @@ namespace RepoDesignPetternC22.Controllers
             try
             {
                 _employeeRepo.Insert(employee);
-                if(_employeeRepo.Save() > 0)
+                if (_employeeRepo.Save() > 0)
                 {
                     return RedirectToAction("Index");
                 }
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 ModelState.AddModelError(string.Empty, ex.Message);
             }
@@ -45,7 +45,7 @@ namespace RepoDesignPetternC22.Controllers
         [HttpGet]
         public IActionResult Edit(int? id)
         {
-            if(id == null || id == 0)
+            if (id == null || id == 0)
             {
                 return BadRequest();
             }
@@ -71,20 +71,31 @@ namespace RepoDesignPetternC22.Controllers
             return View(employee);
         }
 
-
+        //// GET: Employees/Delete/5
         //public IActionResult Delete(int id)
         //{
-        //    var model = _employeeRepo.Models.FirstOrDefault(c => c.Id == id);
-        //    if (model is not null)
+        //    var employee = _employeeRepo.GetById(id);
+        //    if (employee == null)
         //    {
-        //        _employeeRepo.Remove(model);
-        //        _employeeRepo.Save();
-        //        return RedirectToAction(nameof(Index));
+        //        return NotFound();
         //    }
-        //    return View("Error", "Home");
+        //    return View(Index);
         //}
+
+        // POST: Employees/Delete/5
+        [HttpGet, ActionName("Delete")]
+        
+        public IActionResult DeleteConfirmed(int id)
+        {
+            _employeeRepo.Delete(id);
+            _employeeRepo.Save();
+            return RedirectToAction(nameof(Index));
+        }
+
+
+
     }
 
-
 }
+
 

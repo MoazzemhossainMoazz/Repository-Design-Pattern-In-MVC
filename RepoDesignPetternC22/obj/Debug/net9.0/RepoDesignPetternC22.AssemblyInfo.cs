@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RepoDesignPetternC22")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3af655d6a93a5dc2cbe8c07d4c4b24600da9d1dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("RepoDesignPetternC22")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RepoDesignPetternC22")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
